@@ -1,9 +1,10 @@
 import tracks
 from PAO import PAO
-from PAO_2 import PAO_2
+# Import some other models and see the competition.
+# More than 3/4 models is discouraged for visually pleasant competitions.
 
 
-cars = [PAO(), PAO_2()]
+cars = [PAO()] # Add your models here
 
 cars_models = [model.get_actor_model() for model in cars]
 
