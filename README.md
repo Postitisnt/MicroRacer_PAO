@@ -6,12 +6,12 @@ In this repository you will find my DRL model for the MicroRacer environment, de
 The model you find in this repository is the model that achieved the best results (placing first in the standings) in the competition between the model developed by the student of the Machine Learning course of the professor Asperti A., who have defined also some other basic models that you can find [here](https://github.com/asperti/MicroRacer), and that you can test against mine.
 
 ## Organization
-You will find my model under the file `PAO.py`, while the weights I have saved from the training, and that have been used for the competition can be found in the `PAO` folder.</br>
-Inside this repository, you will see also the `tracks.py` and the `lydar.pyx` files, which are used to generate the environment for both racing and training purposes (<b>PAY ATTENTION</b>: there are some problems in running the environment in M1 computers).</br>
+You will find my model under the file `PAO.py`, while the weights I have saved from the training, and that have been used for the competition, can be found in the `PAO` folder.</br>
+Inside this repository, you will see also the `tracks.py` and the `lydar.pyx` files, which are used to generate the environment for both racing and training purposes (<b>PAY ATTENTION</b>: <i>there are some problems in running the environment in M1 computers</i>).</br>
 Finally, you will find the `race.py` file, with only my model imported. This file could be useful to see how the model has to be imported, and also to see how the competitions have been organized in the final exam. You can use this file to run some models (built by you, or imported from the original repository) against mine and visually see the competition and the scoreboard, have fun!
 
 
-# MicroRacer
+# MicroRacer - Environment README
 A didactic car-racer micro environment for Deep Reinforcement Learning.
 This is the README file from the [original MicroRacer repository](https://github.com/asperti/MicroRacer), and is used to explain the environment.
 
